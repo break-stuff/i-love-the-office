@@ -1,33 +1,39 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-        >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <router-link class="nav-link" to="/">Home</router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="nav-link" to="/about">About</router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link class="nav-link" title="Favorites" to="/favorites"><span class="sr-only">Favorites</span><i class="fas fa-heart"></i></router-link>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <b-navbar type="dark" variant="dark">
+            <b-navbar-brand href="#" class="text-center">
+                I
+                <i class="fas fa-heart"></i>
+                <br />The Office
+            </b-navbar-brand>
+            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+            <b-collapse id="nav-collapse" is-nav>
+                <b-navbar-nav class="ml-auto">
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/">That's What She Said</router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/about">I Can't Not Watch</router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link class="nav-link" title="Favorites" to="/favorites">
+                            <span class="sr-only">Favorites</span>
+                            <i class="fas fa-heart"></i>
+                        </router-link>
+                    </li>
+                </b-navbar-nav>
+            </b-collapse>
+        </b-navbar>
+    </header>
 </template>
 
 <script>
-export default {};
+    export default {};
 </script>
+<style lang="scss">
+    .navbar {
+        .navbar-brand {
+            font-family: "Courier Prime", monospace;
+        }
+    }
+</style>
