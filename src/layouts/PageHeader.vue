@@ -10,10 +10,10 @@
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="ml-auto">
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/">That's What She Said</router-link>
+                        <router-link class="nav-link" to="/quotes">That's What She Said</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/about">I Can't Not Watch</router-link>
+                        <router-link class="nav-link" to="/">I Can't Not Watch</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link class="nav-link" title="Favorites" to="/favorites">
