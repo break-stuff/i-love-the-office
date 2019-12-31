@@ -2,15 +2,15 @@
     <div class="home">
         <div class="text-center">
             <img
-                class="mb-5 w-90"
+                class="mb-5"
                 alt="image of the office cast"
-                src="../assets/images/the_office_hero.png" />
+                src="../assets/images/the_office_hero.jpg" />
             <h1 class="display-5">Welcome to I Love the Office - Vue!</h1>
         </div>
 
         <p>
             This project is designed to get users up and running quickly with
-            <a href="https://vuejs.org/">Vue.js</a>, the JavaScript framework. To get the workshop content, go to
+            <a href="https://vuejs.org/">Vue.js</a> (a JavaScript framework). To get the workshop content, go to
             <a href="https://github.com/break-stuff/i-love-the-office">https://github.com/break-stuff/i-love-the-office</a>.
         </p>
 
