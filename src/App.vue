@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <page-header></page-header>
-        <main class="container border shadow-sm">
+        <main class="container border shadow-sm p-5">
             <router-view />
         </main>
         <page-footer></page-footer>
@@ -29,6 +29,7 @@
             display: flex;
             flex-direction: column;
             min-height: 100%;
+            background-color: #f2f2f2;
 
             header {
                 flex-shrink: 0;
