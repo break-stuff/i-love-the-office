@@ -1,4 +1,4 @@
-export default [
+[
     {
         "id": 4495,
         "name": "Michael Scott",
@@ -125,4 +125,4 @@ export default [
         "actor": "Andrew Daly",
         "image": "https://image.tmdb.org/t/p/w276_and_h350_face/lMb6m4v7HWDH4zQcxIDsV19Ec6n.jpg"
     }
-];
+]
