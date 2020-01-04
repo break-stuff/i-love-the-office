@@ -1,4 +1,4 @@
-# Challenge 3 - Favorites
+# Challenge 3 - Filter
 
 ## Summary
 
