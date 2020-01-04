@@ -52,7 +52,7 @@ Let's start with moving the code for the `Card` isolated into its own component
 5. In the exported object in the `<script>` section (`export default {}`), add a name property - `name: 'Card'`
 6. In the same object, add a `props` property and assign it an array of the values we want to pass into the component = `props: ['imgDirection', 'imgSrc', 'imgAlt']`
 7. Add a `<slot />` in between the `<div class="card-body"></div>` tags.
-8. At the top of the `<script>` section in the `Quotes.vue` page, import your new Card component - `import Card from '../components/Card.vue';`
+8. At the top of the `<script>` section in the `Quotes.vue` page, import your new Card component - `import Card from '../components/Card';`
 9. In exported object, create a new components property (`components: {}`) and add assign the imported component to that property:
 
 ```js
@@ -75,7 +75,7 @@ components: {
     <p class="card-text text-right">
         <!-- Challenge 2 - Add favorite toggle here -->
         <button
-            @click="toggleFavorite(characterQuote.id)"
+            @click="updateFavorite(characterQuote.id)"
             class="btn btn-default btn-sm"
             v-b-tooltip.hover
             title="like"

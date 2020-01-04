@@ -34,7 +34,7 @@
                     <p class="card-text text-right">
                         <!-- Challenge 2 - Add favorite toggle here -->
                         <button
-                            @click="toggleFavorite(characterQuote.id)"
+                            @click="updateFavorite(characterQuote.id)"
                             class="btn btn-default btn-sm"
                             v-b-tooltip.hover
                             title="like"
@@ -83,7 +83,7 @@
             }
         },
         methods: {
-            toggleFavorite(quoteId) {
+            updateFavorite(quoteId) {
                 let quote = this.quotes.find(quote => quote.id === quoteId);
                 quote.isFavorite = !quote.isFavorite;
             }
