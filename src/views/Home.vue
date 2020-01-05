@@ -7,7 +7,7 @@
                 src="../assets/images/the_office_hero.jpg"
             />
             <h1 class="display-5">Welcome to I Love the Office!</h1>
-            <h2>(Vue.js Addtion)</h2>
+            <h2>(Vue.js Addition)</h2>
         </div>
         <hr />
         <p>
