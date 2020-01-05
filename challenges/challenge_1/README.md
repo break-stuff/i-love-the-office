@@ -2,7 +2,7 @@
 
 ## Summary
 
-This challenge will be for setting up the main content of the quotes page.
+Let's get started! First we need to pull in the quote data and render it on the page.
 
 ## Tasks
 
@@ -26,35 +26,35 @@ This challenge will be for setting up the main content of the quotes page.
 
 3. Using the `v-for` ([documentation](!https://vuejs.org/v2/guide/list.html)) directive, loop over the `characterQuotes` array returned from the computed property you created above and render it using the following HTML snippet:
 
-```html
-<div class="col mb-4">
-    <div class="card rounded-0">
-        <img
-            src="<!-- character image url -->"
-            class="card-img rounded-0"
-            alt="<!-- meaningful alt text for character image -->"
-        />
-        <div class="card-body">
-            <p class="card-text"><!-- quote --></p>
-            <p class="card-text text-right font-italic">
-                - <!-- character name -->
-            </p>
-            <p class="card-text text-right">
-                <!-- Challenge 2 - Add favorite toggle here -->
-                <button
-                    class="btn btn-default btn-sm"
-                    v-b-tooltip.hover
-                    title="like"
-                    style="font-size: 1.5rem;"
-                >
-                    <span class="sr-only">like</span>
-                    <i class="far fa-heart"></i>
-                </button>
-            </p>
+    ```html
+    <div class="col mb-4">
+        <div class="card rounded-0">
+            <img
+                src="<!-- character image url -->"
+                class="card-img rounded-0"
+                alt="<!-- meaningful alt text for character image -->"
+            />
+            <div class="card-body">
+                <p class="card-text"><!-- quote --></p>
+                <p class="card-text text-right font-italic">
+                    - <!-- character name -->
+                </p>
+                <p class="card-text text-right">
+                    <!-- Challenge 2 - Add favorite toggle here -->
+                    <button
+                        class="btn btn-default btn-sm"
+                        v-b-tooltip.hover
+                        title="like"
+                        style="font-size: 1.5rem;"
+                    >
+                        <span class="sr-only">like</span>
+                        <i class="far fa-heart"></i>
+                    </button>
+                </p>
+            </div>
         </div>
     </div>
-</div>
-```
+    ```
 
 ## Stretch Goal
 
