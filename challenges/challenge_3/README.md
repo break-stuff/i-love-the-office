@@ -1,4 +1,4 @@
-# Challenge 3 - Filter
+# Challenge 3 - Filter List
 
 ## Summary
 

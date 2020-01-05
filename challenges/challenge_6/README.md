@@ -1,4 +1,4 @@
-# Challenge 7 - Custom Events
+# Challenge 6 - Custom Events
 
 ## Summary
 

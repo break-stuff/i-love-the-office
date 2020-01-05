@@ -1,4 +1,4 @@
-# Challenge 1 - Favorites
+# Challenge 2 - Favorites
 
 ## Summary
 
