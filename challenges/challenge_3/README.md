@@ -4,6 +4,13 @@
 
 Add drop-down to filter quotes by character. If no user is selected, show all quotes.
 
+### Key Concepts
+
+- [Computed Properties](https://vuejs.org/v2/guide/computed.html)
+- [Form Input Binding](https://vuejs.org/v2/guide/forms.html)
+
+---
+
 ## Tasks
 
 1. At the top of the `Quotes` view, add a drop-down using the following code snippet:

@@ -13,6 +13,14 @@ It is usually a good idea to try to keep a component's functionality as close to
 
 Let's start with moving the code for the `Card` isolated into its own component
 
+### Key Concepts
+
+- [Component Basics](https://vuejs.org/v2/guide/components.html)
+- [Component Registration](https://vuejs.org/v2/guide/components-registration.html)
+- [Slots](https://vuejs.org/v2/guide/components-slots.html)
+
+---
+
 ## Tasks
 
 ### Create a New Component

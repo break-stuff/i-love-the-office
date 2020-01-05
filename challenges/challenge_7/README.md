@@ -6,6 +6,13 @@ Now that you can create components, pass data to child components from the paren
 
 This challenge does use the modal from the [BootstrapVue](https://bootstrap-vue.js.org/) component library, but the usage will be kept to a minimum (not because it's not good, but because the goals is to teach you Vue, not BootstrapVue ;) ).
 
+### Key Concepts
+
+- [Form Input Bindings](https://vuejs.org/v2/guide/forms.html)
+- [Additional Event Handling](https://vuejs.org/v2/guide/events.html)
+
+---
+
 ## Tasks
 
 ### Create the `NewQuoteModal` Component

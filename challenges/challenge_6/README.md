@@ -4,6 +4,12 @@
 
 If you haven't noticed already, moving the quote content from the `Quotes.vue` page to the `Quote.vue` component, has broken our "favorites" functionality. Props are a way for a parent component to pass data to a child component, but we now need a way for our child components to pass data back to the parent.
 
+### Ket Concepts
+
+- [Custom Events](https://vuejs.org/v2/guide/components-custom-events.html)
+
+---
+
 ## Tasks
 
 1. In your `Quote.vue` component, add anew method named `toggleFavorite()`.

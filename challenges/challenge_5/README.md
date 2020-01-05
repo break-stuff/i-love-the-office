@@ -4,6 +4,12 @@
 
 Now that we have moved the markup and styles for the Card out into its own component, let's use it to move the logic and actions that are specific to quotes into their own component as well.
 
+### Key Concepts
+
+- [Props](https://vuejs.org/v2/guide/components-props.html)
+
+---
+
 ## Tasks
 
 ### Create the `Quote` Component

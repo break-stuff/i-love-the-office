@@ -1,8 +1,15 @@
-# Challenge 1 - Quotes
+# Challenge 1 - Display Quotes
 
 ## Summary
 
 Let's get started! First we need to pull in the quote data and render it on the page.
+
+### Key Concepts
+
+- [List Rendering](https://vuejs.org/v2/guide/list.html)
+- [Template Syntax / Data Binding](https://vuejs.org/v2/guide/syntax.html)
+
+---
 
 ## Tasks
 
