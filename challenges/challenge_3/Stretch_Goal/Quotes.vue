@@ -15,7 +15,7 @@
                     >{{character.name}}</option>
                 </select>
             </div>
-            <!-- Challenge 6 - Add button to create new quote here -->
+            <!-- Challenge 7 - Add button to create new quote here -->
         </div>
         <div class="row row-cols-3 row-cols-md-2">
             <!-- Challenge 1 - Add quote snippet here -->
@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-        <!-- Challenge 6 - Add modal to create new quote here -->
+        <!-- Challenge 7 - Add modal to create new quote here -->
     </div>
 </template>
 

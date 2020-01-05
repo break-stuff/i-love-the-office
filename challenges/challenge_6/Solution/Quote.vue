@@ -10,7 +10,7 @@
         <p class="card-text text-right">
             <!-- Challenge 2 - Add favorite toggle here -->
             <button
-                @click="updateFavorite(quoteId)"
+                @click="toggleFavorite()"
                 class="btn btn-default btn-sm"
                 v-b-tooltip.hover
                 title="like"
@@ -51,7 +51,9 @@
             favorite: Boolean
         },
         methods: {
-            updateFavorite() {}
+            toggleFavorite() {
+                this.$emit("favorite-clicked", this.quoteId);
+            }
         }
     };
 </script>

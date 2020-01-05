@@ -1,7 +1,7 @@
 <template>
     <div class="quotes">
         <h1>That's What She Said</h1>
-        <hr>
+        <hr />
         <div class="d-flex justify-content-between">
             <!-- Challenge 3 - Add drop-down filter here -->
             <div class="form-group">
@@ -15,7 +15,7 @@
                     >{{character.name}}</option>
                 </select>
             </div>
-            <!-- Challenge 6 - Add button to create new quote here -->
+            <!-- Challenge 7 - Add button to create new quote here -->
         </div>
         <div class="row row-cols-3 row-cols-md-2">
             <!-- Challenge 1 - Add quote snippet here -->
@@ -30,22 +30,23 @@
                     :quote="characterQuote.quote"
                     :quote-id="characterQuote.id"
                     :favorite="characterQuote.isFavorite"
+                    @favorite-clicked="updateFavorite"
                 ></quote>
             </div>
         </div>
-        <!-- Challenge 6 - Add modal to create new quote here -->
+        <!-- Challenge 7 - Add modal to create new quote here -->
     </div>
 </template>
 
 <script>
     import characters from "../data/characters";
     import quotes from "../data/quotes";
-    import Card from "../components/Card.vue";
+    import Quote from "../components/Quote";
 
     export default {
         name: "quotes",
         components: {
-            Card
+            Quote
         },
         data() {
             return {
