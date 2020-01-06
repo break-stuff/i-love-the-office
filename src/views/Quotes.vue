@@ -43,7 +43,8 @@
 </template>
 
 <script>
-    import axios from "axios";
+    import characters from "../data/characters";
+    import quotes from "../data/quotes";
     import Quote from "../components/Quote";
     import NewQuoteModal from "../components/NewQuoteModal";
 
@@ -55,8 +56,8 @@
         },
         data() {
             return {
-                characters: [],
-                quotes: [],
+                characters,
+                quotes,
                 filterBy: ""
             };
         },
@@ -86,15 +87,6 @@
                 newQuote.id = this.quotes.length + 1;
                 this.quotes.push(newQuote);
             }
-        },
-        mounted() {
-            axios
-                .get("/data/characters.json")
-                .then(response => (this.characters = response.data));
-
-            axios
-                .get("/data/quotes.json")
-                .then(response => (this.quotes = response.data));
         }
     };
 </script>
