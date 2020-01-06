@@ -6,7 +6,7 @@
                 alt="image of the office cast"
                 src="../assets/images/the_office_hero.jpg"
             />
-            <h1 class="display-5">Welcome to I Love the Office! Test 1-2-3</h1>
+            <h1 class="display-5">Welcome to I Love the Office! Test 1-2</h1>
             <h2>(Vue.js Addition)</h2>
         </div>
         <hr />
