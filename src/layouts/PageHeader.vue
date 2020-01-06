@@ -1,7 +1,7 @@
 <template>
     <header>
         <b-navbar type="dark" variant="dark">
-            <b-navbar-brand href="/" class="text-center">
+            <b-navbar-brand to="/" class="text-center">
                 I
                 <i class="fas fa-heart"></i>
                 <br />The Office
