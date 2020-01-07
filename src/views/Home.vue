@@ -84,7 +84,7 @@
             <li class="list-group-item">
                 <a
                     target="_blank"
-                    href="https://github.com/break-stuff/i-love-the-office/tree/master/challenges/challenge_"
+                    href="https://github.com/break-stuff/i-love-the-office/tree/master/challenges/challenge_9"
                 >Challenge 9 - Populating the Videos Page (optional)</a>
             </li>
         </ul>
