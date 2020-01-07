@@ -13,7 +13,13 @@
     export default {
         name: "EmbeddedVideo",
         props: {
-            url: String,
+            url: {
+                type: String,
+                required: true,
+                validator(value) {
+                    return value.includes("youtube");
+                }
+            },
             height: {
                 type: Number,
                 default: 225

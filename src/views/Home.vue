@@ -75,6 +75,18 @@
                     href="https://github.com/break-stuff/i-love-the-office/tree/master/challenges/challenge_7"
                 >Challenge 7 - Adding a Quote</a>
             </li>
+            <li class="list-group-item">
+                <a
+                    target="_blank"
+                    href="https://github.com/break-stuff/i-love-the-office/tree/master/challenges/challenge_8"
+                >Challenge 8 - Adding New Pages</a>
+            </li>
+            <li class="list-group-item">
+                <a
+                    target="_blank"
+                    href="https://github.com/break-stuff/i-love-the-office/tree/master/challenges/challenge_"
+                >Challenge 9 - Populating the Videos Page (optional)</a>
+            </li>
         </ul>
     </div>
 </template>
