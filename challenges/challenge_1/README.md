@@ -67,5 +67,5 @@ Let's get started! First we need to pull in the quote data and render it on the 
 
 Rather than import the data as an ES module, use [Axios](https://github.com/axios/axios) - _which is already installed_ - to get the data as an HTTP request from the following urls ([documentation](https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)):
 
--   `/data/characters.json`
--   `/data/quotes.json`
+- `/data/characters.json`
+- `/data/quotes.json`

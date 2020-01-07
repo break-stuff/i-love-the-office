@@ -3,7 +3,7 @@
         <form @submit.prevent="handleSubmit">
             <div class="form-group">
                 <label for="character">Character</label>
-                <select v-model="newQuote.characterId" class="form-control" id="character" required>
+                <select v-model="newQuote.characterId" class="form-control" id="character">
                     <option value>Select a Character</option>
                     <option
                         v-for="character in characters"
@@ -14,7 +14,7 @@
             </div>
             <div class="form-group">
                 <label for="quote">Quote</label>
-                <textarea v-model="newQuote.quote" class="form-control" id="quote" rows="3" required></textarea>
+                <textarea v-model="newQuote.quote" class="form-control" id="quote" rows="3"></textarea>
             </div>
             <div class="text-right mt-3">
                 <button class="btn btn-outline-primary" @click="hideModal()">Cancel</button>
