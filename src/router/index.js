@@ -2,6 +2,8 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Quotes from '../views/Quotes.vue';
+import Videos from '../views/Videos.vue';
+import PageNotFound from '../views/PageNotFound.vue';
 
 Vue.use(VueRouter);
 
@@ -15,6 +17,16 @@ const routes = [
         path: '/quotes',
         name: 'quotes',
         component: Quotes
+    },
+    {
+        path: '/videos',
+        name: 'videos',
+        component: Videos
+    },
+    {
+        // will match everything
+        path: '*',
+        component: PageNotFound
     }
 ];
 

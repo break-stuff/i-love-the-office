@@ -13,13 +13,7 @@
                         <router-link class="nav-link" to="/quotes">That's What She Said</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/">I Can't Not Watch</router-link>
-                    </li>
-                    <li class="nav-item">
-                        <router-link class="nav-link" title="Favorites" to="/favorites">
-                            <span class="sr-only">Favorites</span>
-                            <i class="fas fa-heart"></i>
-                        </router-link>
+                        <router-link class="nav-link" to="/videos">I Can't Not Watch</router-link>
                     </li>
                 </b-navbar-nav>
             </b-collapse>

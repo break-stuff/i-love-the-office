@@ -21,6 +21,12 @@
                 href="https://github.com/break-stuff/i-love-the-office"
             >https://github.com/break-stuff/i-love-the-office</a>.
         </p>
+        <p>
+            Check out the completed project at
+            <a
+                href="https://break-stuff.github.io/i-love-the-office/"
+            >https://break-stuff.github.io/i-love-the-office/</a>.
+        </p>
 
         <p>This workshop will take you through a series of challenges that are designed to get you familiar with the capabilities of Vue.js and equip you with the knowledge you need to start building your own Vue.js applications.</p>
 
