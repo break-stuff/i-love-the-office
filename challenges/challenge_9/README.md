@@ -1,4 +1,4 @@
-# Challenge 8 - Populating the Videos Page (optional)
+# Challenge 9 - Populating the Videos Page (optional)
 
 ## Summary
 
@@ -24,10 +24,8 @@ This challenge is completely optional. It is here for some additional practice.
     ></iframe>
     ```
 
-2. Import your component into the `Videos.vue` page.
-3. As you have done with the `quotes` and `characters`, in the `Videos.vue` page, get the `videos` data and bind it to a `data` source.
-4. Loop over the `videos` using a `v-for` directive and bind the video data to the `<embedded-video>` component.
-
-### Add Videos to the List
-
-1. Create a form component to add new videos to the list.
+2. Validate that the url is a `YouTube` video.
+3. Import your component into the `Videos.vue` page.
+4. As you have done with the `quotes` and `characters`, in the `Videos.vue` page, get the `videos` data and bind it to a `data` source.
+5. Loop over the `videos` using a `v-for` directive and bind the video data to the `<embedded-video>` component.
+6. Create a form component to add new videos to the list.
