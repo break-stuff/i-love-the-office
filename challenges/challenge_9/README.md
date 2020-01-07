@@ -4,7 +4,6 @@
 
 This challenge is completely optional. It is here for some additional practice.
 
-
 ---
 
 ## Tasks
